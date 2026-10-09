@@ -1,2 +1,4 @@
 cloudshots/
 __pycache__/
+# rebuilt by "Infestation Map White/make_map.py" (8 MB); the .ba2 is what gets installed
+Infestation Map White/textures/

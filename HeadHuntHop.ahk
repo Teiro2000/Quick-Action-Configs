@@ -30,7 +30,7 @@ IDLE_MAX_WAIT_SEC := 3     ; ...but take focus anyway after this long
 FOCUS_SETTLE_MS   := 800   ; after switching to the game, wait this long before pressing keys (raise if keys get ignored)
 PEEK_EVERY_SEC    := 10    ; while a new server loads in the background, switch to the game this often to check for the HUD
 PEEK_SEC          := 2     ; how long each check looks for the HUD before switching back
-BLOCK_INPUT       := true  ; block your mouse/keyboard while the script is switched into the game
+BLOCK_INPUT       := false ; true = block your mouse/keyboard while the script is switched into the game (needs admin)
 MAX_BLOCK_SEC     := 20    ; safety: never block input longer than this (Ctrl+Alt+Del also unblocks)
 GAME              := "ahk_exe Fallout76.exe"
 ; ---------------------------------------------------------------------------
